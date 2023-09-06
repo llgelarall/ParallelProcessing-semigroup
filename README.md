@@ -31,6 +31,10 @@ These observations suggest that the efficiency of semigroup computations is infl
   <img src="second.png" alt="d2">
 </div>
 
+## Usage
+
+Follow the steps in "How to use PINocchio.txt".
+
 ## Acknowledgments
 
 This project was inspired by the concepts and techniques discussed in the "PINocchio" project (https://github.com/albf/PINocchio). We extend our gratitude to the creators and contributors of the "PINocchio" project for their valuable insights into parallel processing and PRAM-related topics.
