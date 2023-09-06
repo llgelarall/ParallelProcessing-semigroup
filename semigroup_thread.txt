@@ -1,0 +1,64 @@
+[PINocchio] Thread Initialized: 0
+[PINocchio] Warning: Non-existent mutex acessed: 0x7f9ab4629a98. Implicit entry created.
+[PINocchio] Thread Initialized: 1
+[PINocchio] Thread Finished: 1
+[PINocchio] Thread Initialized: 2
+[PINocchio] Thread Finished: 2
+[PINocchio] Thread Initialized: 3
+[PINocchio] Thread Finished: 3
+[PINocchio] Thread Initialized: 4
+[PINocchio] Thread Finished: 4
+[PINocchio] Thread Initialized: 5
+[PINocchio] Thread Finished: 5
+[PINocchio] Thread Initialized: 6
+[PINocchio] Thread Finished: 6
+[PINocchio] Thread Initialized: 7
+[PINocchio] Thread Finished: 7
+[PINocchio] Thread Initialized: 8
+[PINocchio] Thread Finished: 8
+[PINocchio] Thread Initialized: 9
+[PINocchio] Thread Finished: 9
+this is init:
+123456789
+[PINocchio] Thread Initialized: 10
+[PINocchio] Thread Initialized: 11
+[PINocchio] Thread Finished: 10
+[PINocchio] Thread Finished: 11
+[PINocchio] Thread Initialized: 12
+[PINocchio] Thread Finished: 12
+this is final2:
+1 3 6
+[PINocchio] Thread Initialized: 13
+[PINocchio] Thread Initialized: 14
+[PINocchio] Thread Finished: 13
+[PINocchio] Thread Finished: 14
+[PINocchio] Thread Initialized: 15
+[PINocchio] Thread Finished: 15
+this is final2:
+4 9 15
+[PINocchio] Thread Initialized: 16
+[PINocchio] Thread Initialized: 17
+[PINocchio] Thread Finished: 16
+[PINocchio] Thread Finished: 17
+[PINocchio] Thread Initialized: 18
+[PINocchio] Thread Finished: 18
+this is final2:
+7 15 24
+[PINocchio] Thread Initialized: 19
+[PINocchio] Thread Finished: 19
+[PINocchio] Thread Initialized: 20
+[PINocchio] Thread Finished: 20
+[PINocchio] Thread Initialized: 21
+[PINocchio] Thread Finished: 21
+this is init:
+61524491571524
+[PINocchio] Thread Initialized: 22
+[PINocchio] Thread Initialized: 23
+[PINocchio] Thread Finished: 22
+[PINocchio] Thread Finished: 23
+[PINocchio] Thread Initialized: 24
+[PINocchio] Thread Finished: 24
+this is final2:
+6 21 45
+@WALL: 1174796.000000
+@CPU: 1092519.000000
