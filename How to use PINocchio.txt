@@ -1,0 +1,60 @@
+1- install wsl you can download it from Microsoft store
+2- run these commands in wsl : 
+ 2.1 sudo apt update
+ 2.2 sudo apt install gcc
+ 2.3 sudo apt install g++
+ 2.4 sudo apt install python2
+ 2.5 sudo python2 get-pip.py
+ 2.6 python2 -m pip install matplotlib
+ 2.7 sudo apt-get install python-tk
+3- download "Pin" for Linux from here : (https://www.intel.com/content/www/us/en/developer/articles/tool/pin-a-binary-instrumentation-tool-downloads.html)
+4- Extract downloaded Pin 
+5- clone PINocchio in {YourPin'SDirectory}/source/tools
+6- run these commands in wsl : 
+ 6.1 cd ../..
+ 6.2 cd mnt/{YourPinSDirectory}/source/tools
+ 6.3 make
+ 6.4 ( if previous commands were succussfull then :) cd PINocchio
+ 6.5 replace pinocchio folder with extraceted PINocchio.zip 
+ 6.6 export PATH="mnt/{YourPinSDirectory}:$PATH"
+ 6.7 add to PATH
+ 6.8 run "pin" to be sure that you do it right!
+ 6.9 make
+
+
+
+_______________________________________________________________________
+
+--to compile :
+
+gcc examples/semigroup_app.c 
+
+________________________________________________________________________
+
+-- to execute:
+
+make pinocchio folder.
+
+./obj-intel64/semigroup_app.exe 
+
+or 
+
+./PINocchio.sh ./obj-intel64/semigroup_app.exe
+
+_________________________________________________________________________
+
+-- get scale:
+
+after make :
+
+python2 scripts/scale.py -p ./obj-intel64/semigroup_app.exe
+______________________________________________________________
+___________
+
+-- get graph:
+
+after make :
+
+./PINocchio.sh ./obj-intel64/semigroup_app 3
+
+python2 scripts/graph.py
