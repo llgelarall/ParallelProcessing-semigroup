@@ -24,7 +24,7 @@ According to the results illustrated in the following graphs, we observed the fo
 These observations suggest that the efficiency of semigroup computations is influenced by the number of processors and highlights the importance of optimizing processor allocation for such parallel computations.
 
 <div style="text-align:center;">
-  <img src="first" alt="d1">
+  <img src="first.png" alt="d1">
 </div>
 
 <div style="text-align:center;">
